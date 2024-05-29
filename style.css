@@ -1,0 +1,231 @@
+@font-face {
+    font-family: damile;
+    src: url(./assets/fonts/Poppins-ExtraBold.ttf);
+}
+
+
+body{
+    height:100vh ;
+    margin:0px ;
+    box-sizing: border-box;
+    background-color: aliceblue;
+}
+
+
+.navbar{
+height: 10vh;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: rgb(222, 199, 199);
+font-weight: bold;
+padding: 10px 5% 10px 5%;
+}
+
+.navbar h1{
+    color: rgb(60, 37, 92);
+    font-size: 1.8rem;
+}
+
+.navbar ul li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(60, 37, 92);
+    font-size: 1.2rem;
+}
+
+
+.navbar ul li a:hover{
+    color: crimson;
+}
+
+
+p{
+    padding: 0 19px 0 19px; 
+    text-align: justify;
+    line-height: 1.0 rem;
+    font-size: 12px;
+    background-image: url(./assets/fonts/Poppins-LightItalic.ttf);
+    
+    }
+    
+    
+    h1{
+        font-family: damile;
+        src: url(./assets/fonts/Lobster-Regular.ttf);
+        font-size: 26px;
+    }
+    
+    h2,h3,h4,h5{
+    font-family: damile;
+    src: url(./assets/fonts/Poppins-ExtraLight.ttf);
+    font-size: 18px;
+    
+    }
+
+    
+    .banner{
+    height: 38vh;
+    font-size: 30px;
+    background-image: url(./assets/multimedia/images-banner-desktop.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    }
+    
+    .banner h2{
+        font-family: damile;
+    src: url(./assets/fonts/Poppins-Black.ttf);
+    font-size: 3rem;
+    color: crimson;
+    padding: 20px;
+    background-image: linear-gradient(black,transparent);
+    }
+
+    .color-acento{
+        color: rgb(92, 22, 142);
+    }
+
+    .eslogan{  justify-content: first baseline;
+        text-align: center;
+        font-size: 36px;
+        color: rgb(223, 93, 160);
+    }
+
+    h4{
+        text-align: justify;
+        text-align: justify;
+               }
+
+    .product-container{
+    height: 65vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: stretch;
+    grid-area: product;
+    padding: 10px 0 10px 0; }
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-size: 79px;
+    width: 14vw;
+    padding: 1px;
+    box-sizing: border-box;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    box-shadow: 0px 0px 15px rgb(1, 1, 1);
+    }
+    
+    .card img{
+        width: 230px;
+        height: 230px;
+        text-align: center;
+        display: flex;
+        align-items: flex-end;
+        flex-direction: row;
+    }
+    
+    .card h4{
+    text-align: center;
+    color: rgb(224, 34, 62);
+    }
+
+    .card-text{
+        
+            padding: 0 11px 0 11px;
+            font-size: 15px;
+            text-align: justify;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+    .card-div{
+        text-align: center;
+    }
+    
+    .btn-primary{
+
+        width: 60%;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        padding: 5%;
+        margin-bottom: 5%;
+        letter-spacing: 2px;
+        line-height: 4px;
+        text-decoration: none;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 11px;
+        font-family: Georgia, 'Times New Roman',;  
+    } 
+ 
+        .btn-primary {
+        border: rgb(208, 37, 171);
+        color: rgb(66, 60, 66);
+        background-color: rgb(237, 145, 172);
+        font-weight: bold;
+        align-items: center;
+        margin-inline: auto;
+        }
+
+        .footer{
+            background-color: rgb(245, 192, 192);
+            grid-area: footer;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+        }
+
+
+        .footer a{
+            display: inline-block;
+            margin: 0 7px 0 7px;
+        }
+        
+        .footer a i{
+            display: inline-block;
+            border-radius: 50%;
+        }
+        
+        .footer a i:hover{
+            box-shadow: 0px 0px 15px rgb(229, 137, 164);
+        }
+        
+        .fa-brands{
+            width: 28px;
+            height: 28px;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        @media (min-width: 600px) and (max-width: 700px){
+            .banner,.eslogan, .product-container,.card img,.footer{
+            text-align: left;
+            }
+            
+        }
+
+        @media screen and (min-width: 600px) {
+            .border a ul li, .border a,.footer,.banner,.body,.product-container {
+                display:flex;
+                width: 100%;
+          
+          
+          
+              }
+            }
+            
